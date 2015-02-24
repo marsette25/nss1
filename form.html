@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CSS Selectors</title>
+<meta name="description" content="CSS Selectors">
+<meta name="author" content="me">
+<link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+<header class="bordered padded">
+  NSS Evening Class: Advanced CSS Selectors
+</header>
+
+<form action ="form.html" method="POST">
+
+<fieldset>
+
+	<legend>Tell us about yourself</legend>
+	<label for="first-name">Enter your first name</label>
+	<input id="first-name" type="text" name="first-name" class="input-buffer">
+
+
+	<label for="last-name">Enter your last name</label>
+	<input id="last-name" type="text" name="last-name" class="input-buffer">
+
+
+	<label for="email">Enter your email</label>
+	<input id="email" type="text" name="email" class="input-buffer">
+</fieldset>
+
+<fieldset> 
+	<legend>Give us feedback</legend>
+	<label for="comments">Comments</label>
+	<textarea id="comments" name="comments" class="input-buffer"></textarea>
+	</fieldset>
+
+	<label for="feedback-type">Comment type</label>
+
+<select id="feedback-type" name="type" class="input-buffer">
+
+	<option>Bug report</option>
+	<option>Praise</option>
+	<option>Feature request</option>
+</select>
+
+<fieldset>
+
+	<legend>Which product are you using</legend>
+	<input type="radio" name="product-type"	value="word">
+	Word
+	<input type="radio" name="product-type"	value="Excel">
+	Excel
+	<input type="radio" name="product-type"	value="PowerPoint">
+	PowerPoint
+</fieldset>
+
+<fieldset>
+	
+	<legend>Which product are you using</legend>
+	<input type="checkbox" name="student" value="Student">
+	Student
+	<input type="checkbox" name="advanced"	value="advanced">
+	Advanced User
+	<input type="checkbox" name="dandelion"	value="flower">
+	Dandelion
+</fieldset>
+
+
+
+
+<button type ="submit">Submit Comments</button>
+
+</form>
+
+</body>
+</html>
