@@ -4038,8 +4038,7 @@ section {
     width: 790px;
     height: 690px;
     border-radius: 10%;
-    position: absolute;
-    left: 235px;
+    position: relative;
     background: #FFF;
 }
 
