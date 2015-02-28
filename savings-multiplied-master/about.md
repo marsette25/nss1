@@ -1,30 +1,42 @@
-about.md
-<h1>Heading 1</h1>
+#Savings Multiplied
 
-<h2>Heading 2</h2>
+##By: Marsie Thomas
 
-<h3>Heading 3</h3>
+###A Story: About how I created Savings Multiplied.
 
-<ol>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
-<li>Item 4</li>
-</ol>
+I used lots of tables. I'm sure there is a better way
 
-<hr/>
+to do this. However, I found them so easy to modify.
 
-<ul>
-<li>Bullet 1</li>
-<li>Bullet 2</li>
-</ul>
+The page looks perfect on my computer. However, it will probably look ridiculous
 
-<pre class="code">
+on a larger screen or mobile device.
+
+
+##Things left to do on the home page:
+
+
+1. Put the finishing touches on the seach icon.
+1. Add Dark Teal background.
+1. There's something else, that I forget.
+1. I wish I could remember No. 3. I feel like it was important.
+
+
+
++ *_I will start working on the auction page today_*
++ I will also read about markdown text, too.
+
+
+
+
+```
 var thisVariable = "awesome variable";
-</pre>
+```
 
-<blockquote>
-"That" - She
-</blockquote>
+
+> "That" - She
+
+[a link to me](https://stevebrownlee.com)
+
 
 <a href="http://www.stevebrownlee.com">a link to me</a>
